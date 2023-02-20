@@ -35,12 +35,20 @@ const secondHeader = () => {
             <ul className="second_header_icons">
               <li>
                 <a href="#" className="anchor-links">
-                  Seek <FiSearch size="25px" />
+                  Seek{" "}
+                  <FiSearch
+                    size="25px"
+                    style={{ verticalAlign: "text-bottom" }}
+                  />
                 </a>
               </li>
               <li>
                 <a href="#" className="anchor-links">
-                  Shopping Cart <BsCart size="25px" />
+                  Shopping Cart{" "}
+                  <BsCart
+                    size="25px"
+                    style={{ verticalAlign: "text-bottom" }}
+                  />
                 </a>
               </li>
             </ul>
