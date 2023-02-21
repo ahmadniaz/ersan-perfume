@@ -52,3 +52,24 @@
     font-size: 23px;
     font-family: "Baskervville", serif;
 }
+
+.second_grid{
+    display: flex;
+    height: 300px;
+}
+
+.second_grid_left{
+    width: 50%;
+    background: linear-gradient( rgba(0, 0, 0, 0.3) 100%, rgba(0, 0, 0, 0.5)100%), url("../../assets/man.webp");
+    background-position: center;
+
+}
+
+.second_grid_right{
+    width: 50%;
+    background: linear-gradient( rgba(0, 0, 0, 0.3) 100%, rgba(0, 0, 0, 0.5)100%), url("../../assets/Duftkerzen.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}

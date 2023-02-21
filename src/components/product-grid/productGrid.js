@@ -27,7 +27,14 @@ const productGrid = () => {
             </div>
           </div>
         </div>
-        <div className="second_grid"></div>
+        <div className="second_grid">
+          <div className="second_grid_left"></div>
+          <div className="second_grid_right">
+            <div className="product_name">
+              <p>PERFUME OIL</p>
+            </div>
+          </div>
+        </div>
       </div>
     </>
   );
