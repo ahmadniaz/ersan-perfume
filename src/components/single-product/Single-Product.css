@@ -154,6 +154,24 @@
     padding: 0 10%;
     font-size: 14px;
     font-family: "poppins", sans-serif;
-    line-height: 1.2em;
+    line-height: 1.2rem;
     letter-spacing: 0;
+}
+
+.banner{
+    height:500px;
+    background: linear-gradient( rgba(0, 0, 0, 0.3) 100%, rgba(0, 0, 0, 0.5)100%),url("../../assets/background.webp");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.banner_text{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 21px;
+    font-family: "poppins", sans-serif;
 }

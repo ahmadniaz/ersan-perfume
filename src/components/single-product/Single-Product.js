@@ -1,5 +1,6 @@
 import React, { useContext } from "react";
 import ProductContext from "../../context/products-context/productContext";
+import Collapse from "../collapse/Collapse";
 import Plus from "../../assets/svg/plus.svg";
 import Minus from "../../assets/svg/minus.svg";
 import Paypal from "../../assets/svg/paypal-seeklogo.com.svg";
@@ -61,7 +62,17 @@ const SingleProduct = () => {
               </div>
             </div>
           </div>
-          <div className="single_product_description"></div>
+          <div className="single_product_description">
+            <Collapse />
+          </div>
+        </div>
+      </div>
+
+      <div className="banner">
+        <div className="banner_text">
+          <p>
+            We are inspired by the conversations we have with our customers.
+          </p>
         </div>
       </div>
     </>
