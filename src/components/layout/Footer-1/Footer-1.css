@@ -1,7 +1,8 @@
 .first_footer_container{
     height: 400px;
     display: flex;
-    border-bottom: 1px solid #7b3f34;
+    border-bottom: 1px solid #e0e6eb;
+
 }
 
 .first_footer_section_one_container{
@@ -20,7 +21,7 @@
 
 .first_footer_section_one h6{
     font-size: 18px;
-    font-family: "baskervville", serif;
+    font-family: "New York", serif;
     color: #171717;
     padding-bottom: 1.5rem;
 }
@@ -53,7 +54,7 @@
 
 .first_footer_menu h6{
     font-size: 18px;
-    font-family: "baskervville", serif;
+    font-family: "New York", serif;
     color: #171717;
     padding-bottom: 1.5rem;
 }
@@ -89,7 +90,7 @@
 
 .newsletter h6{
     font-size: 18px;
-    font-family: "baskervville", serif;
+    font-family: "New York", serif;
     color: #171717;
     padding-bottom: 1.5rem;
 }

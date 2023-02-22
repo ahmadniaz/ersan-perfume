@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Hero.css";
 import HeroImage from "../../assets/HeroImage.webp";
 
@@ -15,7 +16,9 @@ const heroSection = () => {
         <div className="hero_heading">
           <h6>ETHICS &amp; ASTHETICS</h6>
           <p>THE ERSAN HOUSE</p>
-          <button>SHOP</button>
+          <Link to="/collection">
+            <button>SHOP</button>
+          </Link>
         </div>
       </div>
     </>

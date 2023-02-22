@@ -4,6 +4,7 @@
     background-color: white;
     height: 115px;
     position: relative;
+    border-bottom: 1px solid #e0e6eb;
 
 }
 
@@ -59,12 +60,11 @@
 
 .second_header_right{
     width: 40%;
-    text-align: end;
 }
 
 .second_header_icons{
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
 }
 
 .second_header_icons li{

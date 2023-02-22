@@ -1,11 +1,24 @@
 import "./App.css";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home/Home";
+import Collection from "./pages/Collection/Collection";
+import Product from "./pages/Product/Product";
+
+import ProductState from "./context/products-context/ProductState";
 
 function App() {
   return (
-    <div className="App">
-      <Home />
-    </div>
+    <Router>
+      <ProductState>
+        <div className="App">
+          <Routes>
+            <Route exact path="/" element={<Home />} />
+            <Route path="/collection" element={<Collection />} />
+            <Route path="/description" element={<Product />} />
+          </Routes>
+        </div>
+      </ProductState>
+    </Router>
   );
 }
 

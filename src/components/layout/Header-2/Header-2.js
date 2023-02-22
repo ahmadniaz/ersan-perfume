@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { FiSearch } from "react-icons/fi";
 import { BsCart } from "react-icons/bs";
 import "./Header-2.css";
@@ -12,29 +13,33 @@ const secondHeader = () => {
           <div className="second_header_left">
             <ul className="menu-links">
               <li>
-                <a href="#" className="anchor-links">
+                <Link to="/collection" className="anchor-links">
                   Collection
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="anchor-links">
+                <Link to="/about" className="anchor-links">
+                  {" "}
                   About Ersan
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="anchor-links">
+                <Link to="/blog" className="anchor-links">
+                  {" "}
                   Blog
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
           <div className="second_header_middle">
-            <img src={Logo} alt="Logo" width="150px" />
+            <Link to="/">
+              <img src={Logo} alt="Logo" width="150px" />
+            </Link>
           </div>
           <div className="second_header_right">
             <ul className="second_header_icons">
               <li>
-                <a href="#" className="anchor-links">
+                <a href="/" className="anchor-links">
                   Seek{" "}
                   <FiSearch
                     size="25px"
@@ -43,7 +48,7 @@ const secondHeader = () => {
                 </a>
               </li>
               <li>
-                <a href="#" className="anchor-links">
+                <a href="/" className="anchor-links">
                   Shopping Cart{" "}
                   <BsCart
                     size="25px"
