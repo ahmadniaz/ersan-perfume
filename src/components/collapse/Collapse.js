@@ -26,7 +26,7 @@ const Collapse = () => {
           black currant. The heart note of Desire Me! consists of lilies of the
           valley, which enable a subtle transition from fruity to sweet. This
           scent owes its sweetness to the interplay of sandalwood, vanilla,
-          heliotrope, patchouli and the specialties of the Ersan house: amber
+          heliotrope, patchouli and the specialties of the Aromas house: amber
           and musk.
         </p>
       </div>

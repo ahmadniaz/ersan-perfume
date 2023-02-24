@@ -11,22 +11,16 @@ const secondHeader = () => {
       <div className="second_header_container">
         <div className="second_header_innerContainer">
           <div className="second_header_left">
-            <ul className="menu-links">
+            <ul className="menu_links">
               <li>
-                <Link to="/collection" className="anchor-links">
+                <Link to="/collection" className="anchor_links">
                   Collection
                 </Link>
               </li>
               <li>
-                <Link to="/about" className="anchor-links">
+                <Link to="/about" className="anchor_links">
                   {" "}
-                  About Ersan
-                </Link>
-              </li>
-              <li>
-                <Link to="/blog" className="anchor-links">
-                  {" "}
-                  Blog
+                  About
                 </Link>
               </li>
             </ul>
@@ -39,7 +33,7 @@ const secondHeader = () => {
           <div className="second_header_right">
             <ul className="second_header_icons">
               <li>
-                <a href="/" className="anchor-links">
+                <a href="/" className="anchor_links">
                   Seek{" "}
                   <FiSearch
                     size="25px"
@@ -48,7 +42,7 @@ const secondHeader = () => {
                 </a>
               </li>
               <li>
-                <a href="/" className="anchor-links">
+                <a href="/" className="anchor_links">
                   Shopping Cart{" "}
                   <BsCart
                     size="25px"

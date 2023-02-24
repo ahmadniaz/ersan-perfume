@@ -32,7 +32,7 @@ const SingleProduct = () => {
             <h1 className="prod_quantity">{weight}</h1>
             <h4 className="prod_price">&euro;{price}.00</h4>
             <p className="prod_seller">
-              Seller <span>Ersan Perfumery</span>
+              Seller <span>Aromas Artesanales</span>
             </p>
           </div>
 

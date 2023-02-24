@@ -14,7 +14,7 @@ const secondFooter = () => {
       <div className="second_footer_container">
         <div className="second_footer_left_container">
           <div className="second_footer_left">
-            <p>© 2023 Ersan Perfumery . Powered by Shopify</p>
+            <p>© 2023 Aromas Artesenales . Powered by Pragma-tech</p>
           </div>
         </div>
         <div className="second_footer_middle"></div>

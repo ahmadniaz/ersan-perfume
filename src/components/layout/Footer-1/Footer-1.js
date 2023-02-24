@@ -22,9 +22,9 @@ const firstFooter = () => {
         </div>
         <div className="first_footer_section_two_container">
           <div className="first_footer_menu">
-            <h6>Ersan Perfumery</h6>
+            <h6>Aromas Artesanales</h6>
             <ul>
-              <li>About Ersan</li>
+              <li>About </li>
               <li> Contact</li>
               <li>Blog</li>
             </ul>

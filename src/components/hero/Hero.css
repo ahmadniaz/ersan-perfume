@@ -6,7 +6,7 @@
 .hero_heading{
     text-align: center;
     position: absolute;
-    top: 50%; left: 44%;
+    top: 50%; left: 45%;
   transform: translate(-40%,-40%);
 }
 
@@ -45,7 +45,7 @@
 }
 
 .hero_heading button:hover{
-    background: #212b36;
+    background: #85c3bc;
     color: #fff;
     border-color: #212b36;
 }

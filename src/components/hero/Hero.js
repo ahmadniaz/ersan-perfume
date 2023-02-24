@@ -15,7 +15,7 @@ const heroSection = () => {
       >
         <div className="hero_heading">
           <h6>ETHICS &amp; ASTHETICS</h6>
-          <p>THE ERSAN HOUSE</p>
+          <p>THE AROMAS HOUSE</p>
           <Link to="/collection">
             <button>SHOP</button>
           </Link>
