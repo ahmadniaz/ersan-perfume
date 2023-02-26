@@ -42,13 +42,13 @@ const secondHeader = () => {
                 </a>
               </li>
               <li>
-                <a href="/" className="anchor_links">
+                <Link to="/cart" className="anchor_links">
                   Shopping Cart{" "}
                   <BsCart
                     size="25px"
                     style={{ verticalAlign: "text-bottom" }}
                   />
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

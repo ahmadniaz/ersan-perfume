@@ -1,7 +1,8 @@
 .first_footer_container{
     height: 400px;
     display: flex;
-    border-bottom: 1px solid #e0e6eb;
+    border-top: 1px solid #ecd6d1;
+    border-bottom: 1px solid #ecd6d1;
 
 }
 
